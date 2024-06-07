@@ -124,7 +124,7 @@ export class EcsCdkStack extends cdk.Stack {
       }),
       environmentVariables: {
         REPOSITORY_URI: {
-          value: '211125589162.dkr.ecr.ap-south-1.amazonaws.com/niginx', // replace with your ECR repository URI
+          value: '211125589162.dkr.ecr.ap-south-1.amazonaws.com/niginx', // replace with your ECR repository UR
         },
       },
     });
